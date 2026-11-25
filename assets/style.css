@@ -9,8 +9,8 @@ a{color:var(--acc2);text-decoration:none}a:hover{text-decoration:underline}
 .hero{padding:80px 5vw 56px;max-width:1200px;margin:0 auto;position:relative}
 .hero:before{content:"";position:absolute;inset:0 -20% auto;height:420px;background:radial-gradient(600px 300px at 20% 10%,rgba(124,92,255,.25),transparent),radial-gradient(500px 260px at 80% 0,rgba(34,211,238,.15),transparent);z-index:-1}
 .eyebrow{color:var(--acc2);text-transform:uppercase;letter-spacing:.14em;font-size:13px;font-weight:600;margin:0 0 12px}
-h1{font-size:clamp(34px,5.4vw,64px);line-height:1.05;margin:0 0 22px;font-weight:800;letter-spacing:-.02em}
-h1 span{display:block;background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+h1{font-size:clamp(22px,3.3vw,42px);white-space:nowrap;line-height:1.05;margin:0 0 22px;font-weight:800;letter-spacing:-.02em}
+h1 span{display:inline;background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
 .lead{max-width:820px;color:#c9cdd8;font-size:18px;margin:0 0 14px}.lead b{color:var(--txt);font-weight:600}.lead.small{font-size:14px;color:var(--mut)}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:36px}
 .stats div{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
@@ -43,3 +43,5 @@ figcaption{padding:12px 14px 14px}
  .top,.lb{display:none}.hero{padding:14mm 12mm 8mm;max-width:none}.hero:before{display:none}main{padding:0 10mm;max-width:none}.game{break-before:page;padding:9mm 0 0;border:0}
  html,body{background:var(--bg)}.grid{grid-template-columns:repeat(4,1fr)!important;gap:12px}.stats{grid-template-columns:repeat(4,1fr)!important}.links{display:none}
  .ghead{margin-bottom:12px}.thumb{height:310px}.card:hover{transform:none}.foot{break-before:avoid;break-inside:avoid;padding:12px;margin-top:0}.foot h2{font-size:20px}.disc{margin-top:8px!important}}
+
+@media(max-width:900px){h1{white-space:normal}}
