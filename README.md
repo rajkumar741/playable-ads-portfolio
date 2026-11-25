@@ -1,4 +1,4 @@
-# Playable Ads Portfolio — Rajkumar Kannan
+# Playable Ads Portfolio — Rajkumar.K
 
 Portfolio of top playable and gameplay video ad creatives from Kwalee titles I worked on, as Senior Playable Ads Developer (Unity/C#, Luna, Unity Playworks).
 
